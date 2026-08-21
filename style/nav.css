@@ -1,0 +1,20 @@
+nav {
+  ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    li {
+      padding: 0.3rem;
+      background: black;
+      border: 1px solid black;
+      border-radius: 4px;
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
